@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <title>Trevland</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="gsap-spinner"></div>
+    </div>
+    <header class="header">
+        <div class="container">
+
+            <div class="header-top__row">
+                <div class="logo">Trevland</div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="header__btn btn">Booking now</button>
+                <div class="header__burger">
+                    <span class="open">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>
+                    </span>
+                    <span class="close">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+
+                    </span>
+                </div>
+            </div>
+            <div class="header-middle__row">
+                <div class="header__hero">
+                    <h1 class="header__title" aria-hidden="true">
+                        <div class="inline-block" data-positon="10">Railtrips</div>
+                        <div class="inline-block" data-positon="20">To</div>
+                        <div class="inline-block" data-positon="30">Here</div>
+                        <div class="inline-block" data-positon="40">,</div><br>
+                        <div class="inline-block" data-positon="50">There</div>
+                        <div class="inline-block" data-positon="70">And</div>
+                        <div class="inline-block" data-positon="10">Everywhere!</div>
+                    </h1>
+                    <p class="header__text" aria-hidden="true">We all wish to start our year the best way possible and
+                        also according
+                        to a
+                        common belief if you have a great start to
+                        your.
+                    </p>
+                    <button class="btn header-middle__btn">Booking now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="popular-location">
+
+            <h2 class="title-h2">Popular Location</h2>
+            <p class="description-h2">For every one of us, travel came first. We’ve spent years living as nomads,
+                pioneers,
+                and voyagers— from
+                island hopping
+                in the</p>
+            <div class="popular-location__row">
+                <div class="popular-location__item item">
+                    <img src="images/card1.jpg" alt="Istanbul, Turkey">
+                    <div class="item__body">
+                        <h3 class="popular-location__title">Istanbul, Turkey</h3>
+                        <p class="popular-location__description">Istanbul is a major city in Turkey that straddles
+                            Europe.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="popular-location__item item">
+                    <img src="images/card2.png" alt="Istanbul, Turkey">
+                    <div class="item__body">
+                        <h3 class="popular-location__title">Kuala Lumpur, malaysia</h3>
+                        <p class="popular-location__description">A 272-step long trek leads you to this century.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="popular-location__item item">
+                    <img src="images/card3.png" alt="Seoul, South Korea">
+                    <div class="item__body">
+                        <h3 class="popular-location__title">Seoul, South Korea</h3>
+                        <p class="popular-location__description">South Korea officially the Republic of Korea is a
+                            country
+                            in East Asia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="special-offers">
+            <div class="container-wide ">
+                <h2 class="title-h2">Special Offers</h2>
+                <p class="description-h2">With the New Year comes a refreshing sense of wanderlust, a longing in our
+                    souls
+                    to escape to warmer climates,</p>
+
+                <div class="swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide  special-offers__card">
+                            <img src="images/newCard5.jpg" alt="Istanbul, Turkey">
+                            <div class="card__body">
+                                <h4 class="special-offers__title">Statue of Liberty.</h4>
+                                <div class="special-offers__info">
+                                    <div class="special-offers__location">
+                                        <img src="./images/loc.svg" alt="loc">
+                                        New York
+                                    </div>
+                                    <div class="special-offers__stars">
+                                        <img src="./images/star.svg" alt="star">
+                                        4.8
+                                    </div>
+                                </div>
+                                <p class="special-offers__description">
+                                    4 Day 5 Nights
+                                </p>
+                                <p class="special-offers__price">
+                                    <span>
+                                        <b>$450</b>
+                                    </span>
+                                    <span>
+                                        /person
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  special-offers__card">
+                            <img src="images/newCard3.jpg" alt="Istanbul, Turkey">
+                            <div class="card__body">
+                                <h4 class="special-offers__title">The Great Wall</h4>
+                                <div class="special-offers__info">
+                                    <div class="special-offers__location">
+                                        <img src="./images/loc.svg" alt="loc">
+                                        China
+                                    </div>
+                                    <div class="special-offers__stars">
+                                        <img src="./images/star.svg" alt="star">
+                                        4.9
+                                    </div>
+                                </div>
+                                <p class="special-offers__description">
+                                    7 Day 8 Nights
+                                </p>
+                                <p class="special-offers__price">
+                                    <span>
+                                        <b>$850</b>
+                                    </span>
+                                    <span>
+                                        /person
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  special-offers__card">
+                            <img src="images/newCard1.jpg" alt="Istanbul, Turkey">
+                            <div class="card__body">
+                                <h4 class="special-offers__title">Dizin</h4>
+                                <div class="special-offers__info">
+                                    <div class="special-offers__location">
+                                        <img src="./images/loc.svg" alt="loc">
+                                        Iran
+                                    </div>
+                                    <div class="special-offers__stars">
+                                        <img src="./images/star.svg" alt="star">
+                                        4.6
+                                    </div>
+                                </div>
+                                <p class="special-offers__description">
+                                    5 Day 6 Nights
+                                </p>
+                                <p class="special-offers__price">
+                                    <span>
+                                        <b>$550</b>
+                                    </span>
+                                    <span>
+                                        /person
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  special-offers__card">
+                            <img src="images/newCard2.jpg" alt="Istanbul, Turkey">
+                            <div class="card__body">
+                                <h4 class="special-offers__title">Sajek Valley
+                                </h4>
+                                <div class="special-offers__info">
+                                    <div class="special-offers__location">
+                                        <img src="./images/loc.svg" alt="loc">
+                                        Bangladesh
+                                    </div>
+                                    <div class="special-offers__stars">
+                                        <img src="./images/star.svg" alt="star">
+                                        4.7
+                                    </div>
+                                </div>
+                                <p class="special-offers__description">
+                                    3 Day 4 Nights
+                                </p>
+                                <p class="special-offers__price">
+                                    <span>
+                                        <b>$400</b>
+                                    </span>
+                                    <span>
+                                        /person
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide special-offers__card">
+                            <img src="images/newCard4.jpg" alt="Istanbul, Turkey">
+                            <div class="card__body">
+                                <h4 class="special-offers__title">Osaka Castle
+                                </h4>
+                                <div class="special-offers__info">
+                                    <div class="special-offers__location">
+                                        <img src="./images/loc.svg" alt="loc">
+                                        Japan
+                                    </div>
+                                    <div class="special-offers__stars">
+                                        <img src="./images/star.svg" alt="star">
+                                        4.7
+                                    </div>
+                                </div>
+                                <p class="special-offers__description">
+                                    4 Day 5 Nights
+                                </p>
+                                <p class="special-offers__price">
+                                    <span>
+                                        <b>$700</b>
+                                    </span>
+                                    <span>
+                                        /person
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="special-controls">
+                        <div class="special-prev"><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 11L1 6L6 1" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.0001 11L8.00012 6L13.0001 1" stroke="black" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+                        <div class="special-pagination"></div>
+
+                        <div class="special-next"><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.00012 11L13.0001 6L8.00012 1" stroke="black" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M1 11L6 6L1 1" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="blog">
+            <h2 class="title-h2">From Blog & News</h2>
+            <p class="description-h2">Welcome to Community Conversations, a new interview series featuring Intrepid
+                travellers, creatives and activists in our
+                community.</p>
+            <div class="blog__row">
+                <div class="blog-big">
+                    <img src="images/blog1.jpg" alt="">
+                    <div class="blog-big__body">
+                        <h3>Banff National Park</h3>
+                        <p>
+                            Banff National Park lies in the heart of the majestic Rocky mountains
+                            in the province of Alberta, and showcases some of Canada's most
+                            beautiful scenery...
+                            Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible
+
+                        </p>
+                        <span><b>@thomasalva_adison</b></span>
+                    </div>
+                </div>
+
+                <div class="blog-small">
+                    <img src="images/blog2.jpg" alt="">
+                    <div class="blog-small__body">
+                        <h4>The Hiroshima Peace!</h4>
+                        <p>It was formally opened to the public in August that year.</p>
+                        <p><b>@shova_bd88</b></p>
+                    </div>
+
+                </div>
+
+                <div class="blog-small">
+                    <img src="images/blog3.jpg" alt="">
+                    <div class="blog-small__body">
+                        <h4>The faithful prayers!</h4>
+                        <p>A major pilgrimage center for Hindus, the holy city.</p>
+                        <p><b>@adem/smith</b></p>
+                    </div>
+                </div>
+
+                <div class="blog-small">
+                    <img src="images/blog4.jpg" alt="">
+                    <div class="blog-small__body">
+                        <h4>Colourful waters!</h4>
+                        <p>Forest-driven water and energy cycles are poorly.</p>
+                        <p><b>@jhon7leew</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__logo logo">
+                        Trevland
+                    </div>
+                    <p class="footer__email">Contact us:<span>@shovasatkhira88.com</span></p>
+                    <div class="footer__icons">
+
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.5 0H2.5C1.12083 0 0 1.12083 0 2.5V17.5C0 18.8783 1.12083 20 2.5 20H17.5C18.8783 20 20 18.8783 20 17.5V2.5C20 1.12083 18.8783 0 17.5 0Z"
+                                fill="#3B5999" />
+                            <path
+                                d="M13.75 10V7.5C13.75 6.81 14.31 6.875 15 6.875H16.25V3.75H13.75C11.6783 3.75 10 5.42833 10 7.5V10H7.5V13.125H10V20H13.75V13.125H15.625L16.875 10H13.75Z"
+                                fill="white" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.6576 3.57713C19.4756 1.87157 18.1285 0.524271 16.4227 0.342394C12.1451 -0.114131 7.85492 -0.114131 3.57742 0.342394C1.87164 0.524424 0.524445 1.87157 0.342407 3.57713C-0.114136 7.85445 -0.114136 12.1446 0.342407 16.4219C0.524445 18.1276 1.87164 19.4748 3.57727 19.6568C7.85477 20.1133 12.1451 20.1133 16.4227 19.6568C18.1285 19.4748 19.4756 18.1276 19.6576 16.4219C20.1141 12.1446 20.1141 7.85461 19.6576 3.57713Z"
+                                fill="url(#paint0_radial_0_167)" />
+                            <path
+                                d="M18.5699 4.30058C18.4085 2.78712 17.2131 1.59164 15.6994 1.43006C11.9037 1.0251 8.0966 1.0251 4.30083 1.43006C2.78731 1.59164 1.59178 2.78712 1.43019 4.30058C1.02522 8.0962 1.02522 11.9031 1.43019 15.6986C1.59178 17.2122 2.78731 18.4077 4.30083 18.5691C8.0966 18.9742 11.9037 18.9742 15.6993 18.5691C17.213 18.4077 18.4085 17.2122 18.5699 15.6986C18.9751 11.9031 18.9751 8.0962 18.5699 4.30058Z"
+                                fill="url(#paint1_linear_0_167)" />
+                            <path
+                                d="M0.299316 16.0065C0.313049 16.1447 0.32724 16.2829 0.342041 16.4212C0.524078 18.1267 1.87128 19.4739 3.57706 19.6559C7.85455 20.1124 12.1449 20.1124 16.4224 19.6559C18.1281 19.4739 19.4752 18.1267 19.6572 16.4212C19.672 16.2829 19.6862 16.1447 19.7001 16.0065H0.299316Z"
+                                fill="url(#paint2_linear_0_167)" />
+                            <path
+                                d="M19.6575 16.4227C19.9029 14.1244 20.0161 11.8224 19.9978 9.52071L15.4262 4.94936C14.8551 4.29738 14.0209 3.89044 13.0407 3.85519C11.0248 3.78257 9.00259 3.78623 6.98645 3.8555C5.31195 3.91318 4.14099 5.03862 3.8407 6.69276C3.78775 6.9848 3.75601 7.28066 3.71436 7.57483V12.4242C3.7374 12.5813 3.77127 12.7377 3.7818 12.8958C3.84894 13.9019 4.26245 14.7637 4.92453 15.3467L9.57663 19.9985C11.8597 20.0145 14.1428 19.901 16.4226 19.6576C18.1284 19.4756 19.4755 18.1285 19.6575 16.4227Z"
+                                fill="url(#paint3_linear_0_167)" />
+                            <path
+                                d="M19.6574 16.4211C19.4756 18.1265 18.1281 19.4739 16.4226 19.6558C14.1431 19.899 11.8594 20.0127 9.57672 19.9967L4.93164 15.3518C5.47012 15.8231 6.17203 16.1101 6.98654 16.1408C9.00223 16.2164 11.0249 16.2145 13.0406 16.1418C14.8637 16.0759 16.183 14.7266 16.2399 12.9036C16.3007 10.9679 16.3007 9.02724 16.2399 7.09159C16.214 6.25056 15.9187 5.51054 15.4292 4.95056L19.9979 9.51901C20.0159 11.8204 19.9026 14.1227 19.6574 16.4211Z"
+                                fill="url(#paint4_linear_0_167)" />
+                            <path
+                                d="M12.3602 7.83458C11.7746 7.19694 10.9343 6.79688 10.0003 6.79688C8.2312 6.79688 6.79688 8.23114 6.79688 10.0002C6.79688 10.9341 7.19696 11.7744 7.83463 12.36L15.2463 19.7714C15.6386 19.7372 16.0309 19.6992 16.4229 19.6574C18.1287 19.4754 19.4759 18.1282 19.6579 16.4225C19.6997 16.0305 19.7377 15.6382 19.7719 15.2459L12.3602 7.83458Z"
+                                fill="url(#paint5_linear_0_167)" />
+                            <path
+                                d="M19.9613 12.1538L13.9964 6.18926C13.8572 6.00662 13.6379 5.88806 13.3906 5.88806C12.9698 5.88806 12.6284 6.22923 12.6284 6.65021C12.6284 6.89754 12.747 7.1168 12.9296 7.25596L19.8547 14.1809C19.9017 13.5054 19.9372 12.8296 19.9613 12.1538Z"
+                                fill="url(#paint6_linear_0_167)" />
+                            <path
+                                d="M3.71436 7.57483C3.75601 7.28066 3.78775 6.9848 3.8407 6.69276C4.14084 5.03862 5.31195 3.91318 6.98645 3.8555C9.00259 3.78623 11.0248 3.78257 13.0407 3.85519C14.8632 3.9208 16.1831 5.27024 16.24 7.09329C16.3006 9.02909 16.3006 10.9696 16.24 12.9054C16.1831 14.7285 14.8636 16.0778 13.0408 16.1435C11.025 16.2163 9.00229 16.2181 6.9866 16.1425C5.16379 16.0739 3.90372 14.7215 3.7818 12.8957C3.77127 12.7377 3.7374 12.5812 3.71436 12.424C3.71436 10.8076 3.71436 9.19113 3.71436 7.57483ZM10.0016 15.0631C10.9241 15.0631 11.8476 15.0907 12.7689 15.0567C14.2135 15.0031 15.102 14.141 15.1357 12.6979C15.1775 10.8997 15.1775 9.09913 15.1357 7.3008C15.102 5.85798 14.2129 4.97576 12.7689 4.94509C10.9362 4.90633 9.10147 4.90664 7.26874 4.94509C5.83578 4.97515 4.94467 5.83952 4.90576 7.26647C4.85632 9.08738 4.85632 10.9115 4.90576 12.7324C4.94467 14.1592 5.83578 15.0036 7.26889 15.0567C8.17862 15.0906 9.09064 15.0631 10.0016 15.0631Z"
+                                fill="url(#paint7_linear_0_167)" />
+                            <path
+                                d="M3.71436 7.57483C3.75601 7.28066 3.78775 6.9848 3.8407 6.69276C4.14084 5.03862 5.31195 3.91318 6.98645 3.8555C9.00259 3.78623 11.0248 3.78257 13.0407 3.85519C14.8632 3.9208 16.1831 5.27024 16.24 7.09329C16.3006 9.02909 16.3006 10.9696 16.24 12.9054C16.1831 14.7285 14.8636 16.0778 13.0408 16.1435C11.025 16.2163 9.00229 16.2181 6.9866 16.1425C5.16379 16.0739 3.90372 14.7215 3.7818 12.8957C3.77127 12.7377 3.7374 12.5812 3.71436 12.424C3.71436 10.8076 3.71436 9.19113 3.71436 7.57483ZM10.0016 15.0631C10.9241 15.0631 11.8476 15.0907 12.7689 15.0567C14.2135 15.0031 15.102 14.141 15.1357 12.6979C15.1775 10.8997 15.1775 9.09913 15.1357 7.3008C15.102 5.85798 14.2129 4.97576 12.7689 4.94509C10.9362 4.90633 9.10147 4.90664 7.26874 4.94509C5.83578 4.97515 4.94467 5.83952 4.90576 7.26647C4.85632 9.08738 4.85632 10.9115 4.90576 12.7324C4.94467 14.1592 5.83578 15.0036 7.26889 15.0567C8.17862 15.0906 9.09064 15.0631 10.0016 15.0631Z"
+                                fill="white" />
+                            <path
+                                d="M10.0003 6.79626C8.2312 6.79626 6.79688 8.23038 6.79688 9.99941C6.79688 11.7686 8.2312 13.2027 10.0003 13.2027C11.7696 13.2027 13.2037 11.7686 13.2037 9.99941C13.2037 8.23038 11.7696 6.79626 10.0003 6.79626ZM10.0003 12.0999C8.84018 12.0999 7.89978 11.1595 7.89978 9.99941C7.89978 8.83933 8.84018 7.89897 10.0003 7.89897C11.1604 7.89897 12.1008 8.83933 12.1008 9.99941C12.1008 11.1595 11.1604 12.0999 10.0003 12.0999Z"
+                                fill="white" />
+                            <path
+                                d="M14.1526 6.6496C14.1526 7.07042 13.8114 7.41159 13.3906 7.41159C12.9698 7.41159 12.6284 7.07042 12.6284 6.6496C12.6284 6.22862 12.9698 5.88745 13.3906 5.88745C13.8114 5.88745 14.1526 6.22862 14.1526 6.6496Z"
+                                fill="white" />
+                            <defs>
+                                <radialGradient id="paint0_radial_0_167" cx="0" cy="0" r="1"
+                                    gradientUnits="userSpaceOnUse"
+                                    gradientTransform="translate(4.09989 17.4777) scale(22.0565 22.0556)">
+                                    <stop stop-color="#FAE100" />
+                                    <stop offset="0.0544" stop-color="#FADC04" />
+                                    <stop offset="0.1167" stop-color="#FBCE0E" />
+                                    <stop offset="0.1829" stop-color="#FCB720" />
+                                    <stop offset="0.2514" stop-color="#FE9838" />
+                                    <stop offset="0.3054" stop-color="#FF7950" />
+                                    <stop offset="0.4922" stop-color="#FF1C74" />
+                                    <stop offset="1" stop-color="#6C1CD1" />
+                                </radialGradient>
+                                <linearGradient id="paint1_linear_0_167" x1="7.67095" y1="8.68954" x2="-26.2108"
+                                    y2="-10.3697" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#A1B5D8" stop-opacity="0" />
+                                    <stop offset="0.3094" stop-color="#90A2BD" stop-opacity="0.309804" />
+                                    <stop offset="0.7554" stop-color="#7C8B9C" stop-opacity="0.756863" />
+                                    <stop offset="1" stop-color="#748290" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_0_167" x1="9.99965" y1="17.6533" x2="9.99965"
+                                    y2="20.7707" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FAE100" stop-opacity="0" />
+                                    <stop offset="0.3068" stop-color="#FCA800" stop-opacity="0.305882" />
+                                    <stop offset="0.6275" stop-color="#FE7300" stop-opacity="0.627451" />
+                                    <stop offset="0.8685" stop-color="#FF5200" stop-opacity="0.866667" />
+                                    <stop offset="1" stop-color="#FF4500" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_0_167" x1="8.86211" y1="8.83438" x2="3.91263"
+                                    y2="3.8847" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#833AB4" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#833AB4" />
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_0_167" x1="13.7069" y1="18.2907" x2="11.2366"
+                                    y2="6.64467" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#833AB4" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#833AB4" />
+                                </linearGradient>
+                                <linearGradient id="paint5_linear_0_167" x1="14.6474" y1="14.6471" x2="4.72496"
+                                    y2="4.72424" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#833AB4" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#833AB4" />
+                                </linearGradient>
+                                <linearGradient id="paint6_linear_0_167" x1="15.3832" y1="8.64267" x2="12.102"
+                                    y2="5.36139" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#833AB4" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#833AB4" />
+                                </linearGradient>
+                                <linearGradient id="paint7_linear_0_167" x1="13.9709" y1="6.05721" x2="5.8808"
+                                    y2="14.1477" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#833AB4" />
+                                    <stop offset="0.0922" stop-color="#9C3495" />
+                                    <stop offset="0.2927" stop-color="#DC2546" />
+                                    <stop offset="0.392" stop-color="#FD1D1D" />
+                                    <stop offset="0.5589" stop-color="#FC6831" />
+                                    <stop offset="0.6887" stop-color="#FC9B40" />
+                                    <stop offset="0.7521" stop-color="#FCAF45" />
+                                    <stop offset="0.7806" stop-color="#FDB750" />
+                                    <stop offset="0.8656" stop-color="#FECB6A" />
+                                    <stop offset="0.9415" stop-color="#FFD87A" />
+                                    <stop offset="1" stop-color="#FFDC80" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.4227 19.6576C12.1452 20.1141 7.85477 20.1141 3.57727 19.6576C1.87164 19.4756 0.524445 18.1284 0.342407 16.4226C-0.114136 12.1451 -0.114136 7.85477 0.342407 3.57727C0.524445 1.87164 1.87164 0.524445 3.57727 0.342407C7.85477 -0.114136 12.1451 -0.114136 16.4226 0.342407C18.1284 0.524445 19.4756 1.87164 19.6576 3.57727C20.1141 7.85477 20.1141 12.1451 19.6576 16.4226C19.4756 18.1284 18.1285 19.4756 16.4227 19.6576Z"
+                                fill="url(#paint0_linear_0_183)" />
+                            <path
+                                d="M18.5699 4.3007C18.4085 2.78719 17.2131 1.59166 15.6994 1.43007C11.9037 1.0251 8.0966 1.0251 4.30083 1.43007C2.78731 1.59166 1.59178 2.78719 1.43019 4.3007C1.02522 8.09648 1.02522 11.9035 1.43019 15.6992C1.59178 17.2128 2.78731 18.4084 4.30083 18.5698C8.0966 18.9749 11.9037 18.9749 15.6993 18.5698C17.213 18.4084 18.4085 17.2128 18.5699 15.6992C18.9751 11.9035 18.9751 8.09648 18.5699 4.3007Z"
+                                fill="url(#paint1_linear_0_183)" />
+                            <path
+                                d="M0.299805 16.0081C0.313538 16.1463 0.327728 16.2845 0.342529 16.4228C0.524567 18.1284 1.87177 19.4756 3.57755 19.6577C7.85504 20.1142 12.1454 20.1142 16.4229 19.6577C18.1286 19.4756 19.4757 18.1284 19.6577 16.4228C19.6725 16.2845 19.6867 16.1463 19.7006 16.0081H0.299805Z"
+                                fill="url(#paint2_linear_0_183)" />
+                            <path
+                                d="M19.9959 9.29712L15.8445 5.14581C15.3792 5.41177 14.9692 5.55933 14.6604 5.64111C14.4867 5.68765 14.345 5.71298 14.243 5.72687C13.7749 5.24698 13.1212 4.94897 12.3976 4.94897C10.974 4.94897 9.81967 6.10315 9.81967 7.5271C9.81967 7.57852 9.82104 7.62933 9.8244 7.67999C9.83127 7.80344 9.84698 7.92474 9.87125 8.04269C9.27692 8.03384 7.34515 7.87515 5.50281 6.29587C5.50266 6.29587 5.50266 6.29572 5.50266 6.29572H5.5025L4.63367 5.42673C4.63367 5.42673 3.61438 7.20575 5.11295 8.55569C5.17871 8.62909 5.25104 8.70157 5.33023 8.77283C5.33649 8.77985 5.34305 8.78671 5.3493 8.79373C5.15262 8.78046 4.56104 8.72156 4.21863 8.47971C4.21863 8.47971 4.14981 9.56705 5.05573 10.3675L5.78723 11.1053C5.56445 11.1237 5.31802 11.1193 5.14667 11.0443C5.14667 11.0443 5.29834 11.6883 5.88458 12.2038L6.90936 13.2339C6.29459 13.592 5.21838 14.0402 3.80176 13.9257L10.0183 19.9999C12.1543 19.9993 14.2902 19.8852 16.4229 19.6575C18.1287 19.4755 19.4759 18.1283 19.6579 16.4227C19.9111 14.0499 20.0235 11.6732 19.9959 9.29712Z"
+                                fill="url(#paint3_linear_0_183)" />
+                            <path
+                                d="M16.1984 6.14709C15.7559 6.37857 15.0894 6.48553 14.8685 6.51636C14.8666 6.50568 14.8648 6.49545 14.863 6.48523C15.6142 6.0206 15.8441 5.14581 15.8441 5.14581C15.3789 5.41177 14.9689 5.55933 14.66 5.64111C14.4864 5.68765 14.3446 5.71283 14.2427 5.72687C13.7746 5.24683 13.1209 4.94897 12.3973 4.94897C10.9737 4.94897 9.81934 6.103 9.81934 7.5271C9.81934 7.57837 9.82071 7.62933 9.82407 7.67984C9.83093 7.80328 9.84665 7.92459 9.87091 8.04254C9.18182 8.03232 6.69449 7.82098 4.63333 5.42673C4.63333 5.42673 3.48557 7.42929 5.41519 8.79724C5.41519 8.79724 4.63333 8.77283 4.21829 8.47971C4.21829 8.47971 4.09622 10.4093 6.31866 11.0197C6.31866 11.0197 5.53726 11.2153 5.14618 11.0443C5.14618 11.0443 5.53711 12.705 7.491 12.8274C7.491 12.8274 6.08963 14.1104 3.80127 13.9257C4.92676 14.6383 6.26114 15.0508 7.6918 15.0508C11.7145 15.0508 14.9756 11.7898 14.9756 7.76712C14.9756 7.71692 14.9751 7.66672 14.9741 7.61652C14.9751 7.58676 14.9756 7.55716 14.9756 7.5271C14.9756 7.5062 14.9751 7.48529 14.9748 7.46439C15.7185 6.96878 16.1984 6.14709 16.1984 6.14709Z"
+                                fill="white" />
+                            <defs>
+                                <linearGradient id="paint0_linear_0_183" x1="6.64039" y1="2.81196" x2="11.699"
+                                    y2="13.635" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00C3FF" />
+                                    <stop offset="1" stop-color="#00B0ED" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_0_183" x1="14.2299" y1="12.269" x2="-14.8275"
+                                    y2="-3.31843" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00B0ED" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#00A2CE" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_0_183" x1="10.0001" y1="17.0853" x2="10.0001"
+                                    y2="19.706" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00B0ED" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#00A2CE" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_0_183" x1="19.1182" y1="18.8309" x2="9.34759"
+                                    y2="9.06029" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00B0ED" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#00A2CE" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"
+                                fill="#273B7A" />
+                            <path
+                                d="M19.7748 12.1156L13.6607 6.00134L8.5633 6.40822L5.95947 8.78517L6.29361 13.9558L12.0828 19.7818C15.9229 18.9681 18.9485 15.9509 19.7748 12.1156Z"
+                                fill="#121149" />
+                            <path
+                                d="M10.2183 9.08051V10.9967H13.2151C12.7901 12.3684 11.5117 13.3648 10.0003 13.3648C8.14182 13.3648 6.63514 11.8582 6.63514 9.99961C6.63506 8.14117 8.14166 6.63449 10.0002 6.63449C10.8687 6.63449 11.6578 6.96641 12.2549 7.5066L13.661 6.00121C12.6964 5.11766 11.4114 4.57812 10.0002 4.57812C7.00596 4.57812 4.57861 7.00539 4.57861 9.99969C4.57861 12.994 7.00596 15.4212 10.0002 15.4212C12.9945 15.4212 15.4218 12.9939 15.4218 9.99969C15.4218 9.68602 15.3928 9.37941 15.3413 9.08051H10.2183Z"
+                                fill="#4285F4" />
+                            <path
+                                d="M10 6.63457C10.8686 6.63457 11.6577 6.96648 12.2547 7.50668L13.6608 6.00129C12.6963 5.11766 11.4113 4.57812 10 4.57812C7.92355 4.57812 6.12066 5.74594 5.20996 7.46008L6.86449 8.78512C7.35207 7.52769 8.57035 6.63457 10 6.63457Z"
+                                fill="#EA4335" />
+                            <path
+                                d="M6.6351 10.0005C6.6351 9.57168 6.71838 9.16313 6.86467 8.78598L5.21014 7.46094C4.8076 8.21863 4.57861 9.0827 4.57861 10.0005C4.57861 10.9226 4.80951 11.7906 5.21553 12.5508L6.86025 11.203C6.71697 10.829 6.6351 10.4248 6.6351 10.0005Z"
+                                fill="#FBBC05" />
+                            <path
+                                d="M11.8714 12.7955C11.3362 13.1546 10.6936 13.3659 10.0006 13.3659C8.56629 13.3659 7.34492 12.467 6.86055 11.2031L5.21582 12.5509C6.1284 14.2593 7.92836 15.4223 10.0005 15.4223C11.3462 15.4223 12.5764 14.9309 13.5242 14.1192L11.8714 12.7955Z"
+                                fill="#34A853" />
+                            <path
+                                d="M15.4217 9.99987C15.4217 9.6862 15.3928 9.37959 15.3412 9.08069H10.2183V10.9969H13.215C12.9849 11.7397 12.5031 12.3706 11.871 12.7947L13.5238 14.1184C14.685 13.124 15.4217 11.6484 15.4217 9.99987Z"
+                                fill="#4285F4" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="footer__col">
+
+                    <ul class="footer__list">
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Our story</a>
+                        </li>
+                        <li>
+                            <a href="#">Benefits</a>
+                        </li>
+                        <li>
+                            <a href="#">Branding</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+
+                    <ul class="footer__list">
+                        <li>
+                            <a href="#">Legal</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privecy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of use</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>
+                        SUBSCRIBE NOW
+                    </h4>
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email">
+                        <button class="btn footer__btn" type=" submit">Send</button>
+                    </form>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
